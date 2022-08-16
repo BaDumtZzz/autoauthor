@@ -1,0 +1,13 @@
+
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÿ¹÷À
+]	java:S125$"<This block of commented-out lines of code should be removed.(¶¡é¶ÿÿÿÿÿ8³ºÏî’0
+T	java:S106B"9Replace this use of System.out or System.err by a logger.(µé8ûÕøÓ‘0
+P	java:S125C"<This block of commented-out lines of code should be removed.(•Âß.
+P	java:S125f"<This block of commented-out lines of code should be removed.(•Âß.
+X	java:S125"<This block of commented-out lines of code should be removed.(•Âß.8¬ÓÎî’0
+X	java:S125û"<This block of commented-out lines of code should be removed.(•Âß.8–è¡Æ“0
+R
+java:S1128	"0Remove this unused import 'java.time.LocalDate'.(›‘¬èýÿÿÿÿ8ÒºÏî’0
+z
+java:S1488#"]Immediately return this expression instead of assigning it to the temporary variable "users".(Ð÷¤¤8ÒºÏî’0

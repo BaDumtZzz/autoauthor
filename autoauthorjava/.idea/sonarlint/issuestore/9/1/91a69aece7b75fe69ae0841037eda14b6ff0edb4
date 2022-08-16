@@ -1,0 +1,17 @@
+
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(ÜÏ´×
+R
+java:S1854d"7Remove this useless assignment to local variable "kek".(ÎÓ‘Şøÿÿÿÿ
+[
+java:S2147u"ECombine this catch with the one at line 115, which has the same body.(”ı¾
+C
+java:S1481d"(Remove this unused "kek" local variable.(ÎÓ‘Şøÿÿÿÿ
+_
+java:S1128
+"IRemove this unused import 'ru.rsreu.autoauthor.dao.oracle.OracleUserDao'.(¬²ÜÙ
+v
+java:S11929"TDefine a constant instead of duplicating this literal "errorAddUserMessage" 3 times.(³Èö‡øÿÿÿÿ8íÊÖŸ”0
+k	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿèø³ıÿÿÿÿ
+d
+java:S2095Z"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(¸®¦

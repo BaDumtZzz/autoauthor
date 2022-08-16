@@ -1,0 +1,32 @@
+
+h
+java:S3776#"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(ÜÏ´×
+[
+java:S2147q"ECombine this catch with the one at line 111, which has the same body.(”ý¾
+t
+java:S2142q"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ý¾
+[
+java:S2147i"ECombine this catch with the one at line 103, which has the same body.(”ý¾
+t
+java:S2142i"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ý¾
+A
+java:S1481Q"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ
+\	java:S899c";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ8×Â²Å“0
+p
+java:S4042c"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ8×Â²Å“0
+7
+java:S1116u"Remove this empty statement.(¥ÁßÐùÿÿÿÿ
+q
+java:S1128"ORemove this unused import 'ru.rsreu.autoauthor.command.admin.ToAddFileCommand'.(“””¥ùÿÿÿÿ8’úÍŸ”0
+i
+java:S1128"LRemove this unused import 'ru.rsreu.autoauthor.command.admin.ToFileCommand'.(ÕŽ¶¢8’úÍŸ”0
+h
+java:S1128	"KRemove this unused import 'ru.rsreu.autoauthor.dao.oracle.OracleAuthorDao'.(Üè«²8’úÍŸ”0
+f
+java:S1128
+"IRemove this unused import 'ru.rsreu.autoauthor.dao.oracle.OracleFileDao'.(ò¹‡Ü8“úÍŸ”0
+P
+java:S1141O"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+k	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿèø³ýÿÿÿÿ
+i
+java:S2095A"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ö€¬ãÿÿÿÿÿ

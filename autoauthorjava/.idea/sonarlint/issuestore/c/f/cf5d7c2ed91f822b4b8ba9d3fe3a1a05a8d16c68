@@ -1,0 +1,13 @@
+
+7
+java:S1116"Remove this empty statement.(†Â®”ûÿÿÿÿ
+f
+java:S1128"IRemove this unused import 'ru.rsreu.autoauthor.dao.oracle.OracleUserDao'.(¬²ÜÙ8¡Äªø‘0
+Y
+java:S1128"<Remove this unused import 'ru.rsreu.autoauthor.domain.User'.(ˆæ³é8¢Äªø‘0
+k
+java:S1128"IRemove this unused import 'ru.rsreu.autoauthor.logic.PasswordEncryption'.(¶·Úüùÿÿÿÿ8¢Äªø‘0
+^
+java:S1128"ARemove this unused import 'java.io.UnsupportedEncodingException'.(Ãµ…“8¹âèÿ‘0
+[
+java:S1128">Remove this unused import 'java.nio.charset.StandardCharsets'.(ï˜ÞÛ8ðóèÿ‘0

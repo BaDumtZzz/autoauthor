@@ -1,0 +1,54 @@
+.profile {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+
+.profile a {
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.profile p {
+    margin: 10px 0;
+}
+
+.profile form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.profile input, .profile select {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+.select {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+
+
+.profile button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+
+.button_login:hover{
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.5);
+}

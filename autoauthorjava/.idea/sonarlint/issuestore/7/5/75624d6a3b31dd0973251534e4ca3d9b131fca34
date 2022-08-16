@@ -1,0 +1,5 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‹ÏÆˆÿÿÿÿÿ8üá½ø/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(šüûìÿÿÿÿÿ8à˜ÂÈø/
+x
+java:S1104"VMake connection a static final constant or non-public and provide accessors if needed.(à¯ôüÿÿÿÿ8›ñ¤Èø/

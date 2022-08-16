@@ -1,0 +1,14 @@
+
+a
+java:S1128"?Remove this unused import 'ru.rsreu.autoauthor.result.JServer'.(²Ñœ´şÿÿÿÿ8ê¤Ş’0
+T
+java:S1128"7Remove this unused import 'javax.imageio.IIOException'.(´ÂÏ’8ºÊ¾¤0
+P
+java:S1128	"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8ºÊ¾¤0
+R
+java:S1128
+"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8ë¤Ş’0
+S
+java:S1128"6Remove this unused import 'java.io.InputStreamReader'.(ãˆÎÉ8»Ê¾¤0
+I
+java:S1128",Remove this unused import 'java.net.Socket'.(­‡àú8»Ê¾¤0

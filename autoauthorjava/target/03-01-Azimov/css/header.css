@@ -1,0 +1,98 @@
+.header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0c3e79;
+}
+.header__body{
+    display: flex;
+    /*justify-content: space-between;*/
+    height: 60px;
+    align-items: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.header__logo{
+    flex:0 0 170px;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+}
+.header__logo img{
+    max-width: 100%;
+    width: 160px;
+}
+
+.header__list{
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+.header__list img{
+    max-width: 100%;
+
+}
+.header__list li{
+    list-style: none;
+    margin: 0px 0px 0px 20px;
+    margin-top: 8px;
+}
+.header__link{
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Bahnschrift";
+    text-shadow: 1px 1px 1px #333;
+}
+.header__link__icons{
+    height: 100%;
+}
+
+.header__link__img{
+    display: inline-block;
+
+
+}
+.header__link__img:nth-child(1){
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.header__link__img img:hover{
+    transform: scale(1.3);
+    transition-duration: 0.5s;
+}
+.header__link:hover{
+    transition: all 0.5s ease 0s;
+    text-shadow: 5px 1px 2px rgba(150, 150, 150, 1);
+    color: #00005c;
+}
+.header_icons{
+    z-index: 190;
+}
+
+.header__list .button{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 0 20px;
+    background: #83a7c9;
+    font-size: 12px;
+    line-height: 40px;
+    width: 120px;
+    text-align: center;
+    transition: .3s ease-in;
+}
+
+.ml {
+    margin-left: 100px;
+}
+
+.mla {
+    margin-left: auto;
+}

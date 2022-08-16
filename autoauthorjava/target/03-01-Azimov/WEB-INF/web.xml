@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation=
+                 "http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         id="WebApp_ID" version="3.0">
+    <display-name>FirstJspServletJsp</display-name>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    <context-param>
+        <param-name>tempfile.dir</param-name>
+        <param-value>tmpfiles</param-value>
+    </context-param>
+
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <page-encoding>UTF-8</page-encoding>
+        </jsp-property-group>
+    </jsp-config>
+
+
+    <listener>
+        <listener-class>ru.rsreu.autoauthor.listener.SessionListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>ru.rsreu.autoauthor.listener.FileLocationContextListener</listener-class>
+    </listener>
+    <session-config>
+        <session-timeout>10</session-timeout>
+    </session-config>
+
+
+    <filter>
+        <filter-name>pageredirectsecurityfilter</filter-name>
+        <filter-class>ru.rsreu.autoauthor.filter.PageRedirectSecurityFilter</filter-class>
+        <init-param>
+            <param-name>INDEX_PATH</param-name>
+            <param-value>/index.jsp</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>pageredirectsecurityfilter</filter-name>
+        <url-pattern>/jsp/*</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>servletsecurityfilter</filter-name>
+        <filter-class>ru.rsreu.autoauthor.filter.ServletSecurityFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>servletsecurityfilter</filter-name>
+        <url-pattern>/controller</url-pattern>
+    </filter-mapping>
+
+    <error-page>
+        <error-code>404</error-code>
+        <location>/jsp/error/error.jsp</location>
+    </error-page>
+    <error-page>
+        <exception-type>java.lang.RuntimeException</exception-type>
+        <location>/jsp/error/error.jsp</location>
+    </error-page>
+</web-app>

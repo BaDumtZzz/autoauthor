@@ -1,0 +1,23 @@
+
+^
+java:S1854"<Remove this useless assignment to local variable "modelDao".(©Ë¢®ûÿÿÿÿ8à¶¯ß’0
+O
+java:S1481"-Remove this unused "modelDao" local variable.(©Ë¢®ûÿÿÿÿ8å¶¯ß’0
+X	java:S125"<This block of commented-out lines of code should be removed.(ÌÔü—8æ¶¯ß’0
+Z
+java:S2147#"DCombine this catch with the one at line 33, which has the same body.(”ı¾
+_
+java:S1128"IRemove this unused import 'ru.rsreu.autoauthor.dao.oracle.OracleFileDao'.(ò¹‡Ü
+e
+java:S1128"JRemove this unused import 'ru.rsreu.autoauthor.dao.oracle.OracleGroupDao'.(”î–®ıÿÿÿÿ
+l
+java:S1128"QRemove this unused import 'ru.rsreu.autoauthor.handler.MapProbabilityComparator'.(‚åí±ÿÿÿÿÿ
+r
+java:S1128	"WRemove this unused import 'ru.rsreu.autoauthor.handler.ResultDeterminingAuthorHandler'.(àù¶Àıÿÿÿÿ
+i
+java:S1128
+"NRemove this unused import 'ru.rsreu.autoauthor.resource.ConfigurationManager'.(Ÿı•êÿÿÿÿÿ
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
+F
+java:S1153"1Directly append the argument of String.valueOf().(§Æ²G
